@@ -35,10 +35,15 @@ Students can view their status
 ▶️ How to Run
 
 Backend:
+
 cd backend
+
 mvn spring-boot:run
 
 Frontend:
+
 cd frontend
+
 npm install
+
 npm start
