@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Block sensitive application routes from discovery
+Disallow: /faculty-dashboard
+Disallow: /manage-events
+Disallow: /my-registrations
+Disallow: /event-registrations/
+
+Sitemap: https://your-eventhub-domain.com/sitemap.xml
